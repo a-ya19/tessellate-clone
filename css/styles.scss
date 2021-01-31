@@ -1,6 +1,6 @@
-$lt-gray: #ddd;
-$background-dark: #512DA8;
-$background-light: #9575CD;
+$lt-gray:#48484e;
+$background-dark: #183549;
+$background-light: #4197d2;
 $background-pale: #D1C4E9;
 
 // Height variables
@@ -41,6 +41,7 @@ address{
 body{
     padding:50px 0px 0px 0px;
     z-index:0;
+    background-color: $background-light;
 }
 
 .navbar-dark {
@@ -66,6 +67,11 @@ body{
             left: 0;
             min-height: 300px;
         }
+    }
+
+    .carousel-caption {
+        top:50%;
+        transform: translateY(-50%);
     }
 }
 
